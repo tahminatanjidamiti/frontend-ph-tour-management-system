@@ -80,10 +80,10 @@ export const router = createBrowserRouter([
   },
   {
     Component: Success,
-    path: "/payment/success",
+    path: "/api/v1/payment/success",
   },
   {
     Component: Fail,
-    path: "/payment/fail",
+    path: "/api/v1/payment/fail",
   },
 ]);
